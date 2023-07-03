@@ -1,0 +1,104 @@
+/* Base CSS. This should contain only BASE ELEMENTS and CLASSES */
+html {
+  height: 100%;
+  width: 100%;
+
+  color: white;
+  font-family: Geologica;
+  background-color: #273043;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: white;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  width: 550px;
+
+  margin: auto;
+  border-radius: 10px;
+  border: 2px solid #DD0426;
+}
+
+.button {
+  justify-content: center;
+
+  border-radius: 10px;
+  background-color: #F02D3A;
+  transition: all ease-in-out 0.1s;
+}
+
+/* Font Holders and Families */
+@font-face {
+  font-family: Geologica;
+  src: url('assets/Geologica.ttf');
+}
+
+/* ID or specific CSS */
+#header {
+  font-size: 20px;
+  text-align: center;
+}
+
+#versionDisplay {
+  opacity: 60%;
+  font-size: 10px;
+  text-align: center;
+}
+
+#chevrons img {
+  transition: all ease-in-out 1;
+}
+
+#pageNumber {
+  padding: 0px 50px;
+}
+
+/* Items */
+.link-item {
+  justify-content: center;
+
+  margin: auto;
+  width: 450px;
+  border-radius: 10px;
+  background-color: grey;
+
+  transition: all ease-in-out 0.1s;
+}
+
+.link-item p {
+  padding-left: 10px;
+}
+
+.item-url {
+  font-size: 10px;
+  margin-top: -10px;
+  text-align: center;
+
+  padding-bottom: 15px;
+}
+
+/* Keyframes & Animations */
+.button:hover {
+  scale: 1.03;
+  cursor: pointer;
+}
+
+.link-item:hover {
+  width: 470px;
+  cursor: pointer;
+}
+
+#chevrons img:hover {
+  scale: 1.10;
+  cursor: pointer;
+}

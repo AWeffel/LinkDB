@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LinkDB</title>
+  <meta charset="utf-8">
+
+  <link rel = 'icon' type = 'image/x-icon' href = 'images/favicon.svg'>
+  <link href = 'style.css' rel = 'stylesheet' type = 'text/css'>
+</head>
+
+<body>
+
+  <div id = 'header'>
+
+    <div class = 'flexbox' style = 'justify-content: center;'>
+      <img src = 'images/favicon.svg' width = 63>
+      <p style = 'padding-left: 10px; text-align: left;'>
+        This Is <br> <span style = 'color: #9197AE; font-size: 30px;'>LinkDB</span>
+      </p>
+    </div>
+
+    <p style = 'font-size: 15px; margin-top: -10px;'>
+      Manually catered and secure website link database.
+    </p>
+
+  </div>
+
+  <p class = 'line'></p>
+
+  <div class = 'flexbox' style = 'margin: 15px; justify-content: center;'>
+
+    <div id = 'uploadButton' class = 'button flexbox' style = 'width: 200px;'>
+      <img src = 'images/upload-icon.svg' width = 25>
+      <p style = 'padding-left: 10px;'>
+        Upload
+      </p>
+    </div>
+
+    <div id = 'bookmarksButton' class = 'button flexbox' style = 'width: 200px; margin-left: 15px;'>
+      <img src = 'images/bookmark.svg' width = 25>
+      <p style = 'padding-left: 10px;'>
+        Bookmarks
+      </p>
+    </div>
+
+  </div>
+
+  <p class = 'line'></p>
+
+  <p style = 'text-align: center;'>
+    Newest Approved Pages
+  </p>
+
+  <div id = 'links'>
+
+    <div id = 'firstItem_object' class = 'link-item'>
+
+      <div class = 'flexbox' style = 'justify-content: center;'>
+        <img id = 'firstItem_icon' src = 'images/icons/_placeholder.svg' width = 25>
+        <p id = 'firstItem_name'>Loading...</p>
+      </div>
+
+      <p class = 'item-url' id = 'firstItem_url'>Loading URL...</p>
+    </div>
+
+    <div id = 'secondItem_object' class = 'link-item'>
+
+      <div class = 'flexbox' style = 'justify-content: center;'>
+        <img id = 'secondItem_icon' src = 'images/icons/_placeholder.svg' width = 25>
+        <p id = 'secondItem_name'>Loading...</p>
+      </div>
+
+      <p class = 'item-url' id = 'secondItem_url'>Loading URL...</p>
+    </div>
+
+    <div id = 'thirdItem_object' class = 'link-item'>
+
+      <div class = 'flexbox' style = 'justify-content: center;'>
+        <img id = 'thirdItem_icon' src = 'images/icons/_placeholder.svg' width = 25>
+        <p id = 'thirdItem_name'>Loading...</p>
+      </div>
+
+      <p class = 'item-url' id = 'thirdItem_url'>Loading URL...</p>
+    </div>
+
+    <div id = 'fourthItem_object' class = 'link-item'>
+
+      <div class = 'flexbox' style = 'justify-content: center;'>
+        <img id = 'fourthItem_icon' src = 'images/icons/_placeholder.svg' width = 25>
+        <p id = 'fourthItem_name'>Loading...</p>
+      </div>
+
+      <p class = 'item-url' id = 'fourthItem_url'>Loading URL...</p>
+    </div>
+
+    <div id = 'fifthItem_object' class = 'link-item'>
+
+      <div class = 'flexbox' style = 'justify-content: center;'>
+        <img id = 'fifthItem_icon' src = 'images/icons/_placeholder.svg' width = 25>
+        <p id = 'fifthItem_name'>Loading...</p>
+      </div>
+
+      <p class = 'item-url' id = 'fifthItem_url'>Loading URL...</p>
+    </div>
+
+  </div>
+
+  <div id = 'chevrons' class = 'flexbox' style = 'justify-content: center; margin-top: 10px;'>
+
+    <img id = 'leftChevron' src = 'images/left.svg' width = 30>
+
+    <p id = 'pageNumber'>Page 1</p>
+
+    <img id = 'rightChevron' src = 'images/right.svg' width = 30>
+
+  </div>
+
+  <p class = 'line' style = 'margin-top: 10px;'></p>
+
+  <p id = 'versionDisplay'>This project was created by Rhet0rical. All assets are open sourced on GitHub. Visit the repository <a href = 'https://github.com/TheRhet0rical/LinkDB'>Here</a>. <br> Client: {version}, Server: {version}.</p>
+
+  <script src = 'script.js'></script>
+  <script src = 'database/server.js'></script>
+</body>
+
+</html>
